@@ -66,3 +66,48 @@ p {
     font-weight: 900;
     color: red;
 }
+
+@media (min-width: 280px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .col,.col1 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .col {
+        width: 40%;
+    }
+
+    .col1 {
+        width: 60%;
+    }
+
+    .box img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .col {
+        width: 40%;
+    }
+
+    .col1 {
+        width: 60%;
+    }
+}
