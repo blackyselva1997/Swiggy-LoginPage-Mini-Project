@@ -15,7 +15,7 @@ form.addEventListener("submit", function (e) {
     error.style.display = "block";
     error.textContent =
       "Please enter your 1st 4 letters then 2nd 4 Numbers password";
-  } else if (pass.value === confirm1.value) {
+  } else if (!(pass.value === confirm1.value)) {
     error.style.display = "block";
     error.textContent = "Please check your password";
   } else {
