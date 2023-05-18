@@ -5,6 +5,8 @@ let confirm1 = document.querySelector("#cnf");
 let submit = document.querySelector("#btn");
 let error = document.querySelector("#result");
 
+console.log(JSON.parse(localStorage.getItem('username')));
+
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
